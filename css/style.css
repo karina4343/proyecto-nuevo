@@ -21,7 +21,8 @@ header nav {
     color: black; }
     header nav .logo img {
       display: flex;
-      height: 230px;
+      max-width: 100%;
+      height: auto;
       width: 230px; }
 
 header .menu ul {
@@ -45,7 +46,7 @@ main .Novedades-titulo {
   display: flex;
   justify-content: center;
   text-align: center; }
-  main .Novedades-titulo h2 {
+  main .Novedades-titulo h1 {
     font-size: 30px;
     font-family: "Raleway", sans-serif;
     font-weight: bold; }
