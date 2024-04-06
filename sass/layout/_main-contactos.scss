@@ -1,0 +1,53 @@
+main{
+    .contactos-h2{
+      display: flex;
+      justify-content: center;
+      text-decoration: underline;
+      font-family: "Raleway", sans-serif;
+      color: #3a3c36;
+    }
+    .contactos{
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      margin: 10px;
+      .container-section{
+        .row{
+          .col{
+            font-size: 30px;
+            font-family: "Raleway", sans-serif;
+            color: #3a3c36;
+            .contactos-h3{
+              
+              h3{
+                text-align: center;
+                font-size: 20px;
+                font-family: "Raleway", sans-serif;
+                color: #3a3c36;
+              }
+            }
+          }
+        }
+      }
+    }
+    .link-wp {
+      a{
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 500;
+      color: #3a3c36;
+      text-decoration: underline;
+      font-family: "Raleway", sans-serif;
+    }
+    }
+    .container{
+      display: block;
+      .formulario-contactos{
+        font-family: "Raleway", sans-serif;
+        .form-control{
+          background-color:#d7e4c0;
+        }
+        
+      }
+    }
+  }

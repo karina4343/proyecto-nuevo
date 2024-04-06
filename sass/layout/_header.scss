@@ -1,0 +1,51 @@
+header{
+    .nav-wraper{
+        width: 100%;
+        margin: 0 auto;
+        padding: 1rem; }
+     nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+         margin-left: -150px;
+        border-radius: 0.4rem; 
+       
+        .logo{
+              font-weight: 700px;
+              text-decoration: none;
+              color: black; 
+        img {
+             display: flex;
+             height: 230px;
+             width: 230px;
+            
+            }
+            }
+          }
+          
+        .menu {
+             ul{
+              list-style: none;
+              display: flex;
+              gap: 2rem;
+        li a {
+          background-color: #d7e4c0;
+          padding: 10px;
+          border-radius: 5%;
+             text-decoration: none;
+             color: black; 
+             font-weight: 700;
+             font-family: "Raleway", sans-serif;
+             font-weight: bold;}
+      }} 
+      
+          }
+  
+  nav{
+        #toggle , label{
+        display: none; }
+      }
+  
+  
+   
