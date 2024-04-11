@@ -1,14 +1,15 @@
 main{
-    .texto-prop-padre {
+    .texto-pro-padre {
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin-top: -50px;
+        margin-top: -10px;
         margin-bottom: -100px; 
         h1{
              color: rgba(18, 17, 17, 0.829); 
              font-family: "Raleway", sans-serif;
+             font-size: 25px;
            }}
     .caja-prop{
         display: flex;
