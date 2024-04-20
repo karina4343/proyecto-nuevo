@@ -1,11 +1,15 @@
 main{
+  overflow-x: hidden;
+  margin-bottom: 20px;
     .contactos-h2{
       display: flex;
       justify-content: center;
-      text-decoration: underline;
+      color: rgba(18, 17, 17, 0.829); 
       font-family: "Raleway", sans-serif;
-      color: #3a3c36;
-    }
+             
+    h1{
+      font-size: 25px;
+    }}
     .contactos{
       display: flex;
       justify-content: flex-start;
@@ -14,7 +18,7 @@ main{
       .container-section{
         .row{
           .col{
-            font-size: 30px;
+            font-size: 20px;
             font-family: "Raleway", sans-serif;
             color: #3a3c36;
             .contactos-h3{

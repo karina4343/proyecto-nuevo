@@ -1,14 +1,18 @@
 footer{
-    section{
+    section{ 
+      
       .container-section{
-        margin: 10px;
+        background-color: #d7e4c0;
+        overflow-x: hidden;
         .row{
-          display: flex;
-          justify-content: center;
-          margin-top: 20px;
+          display:flex;
+          justify-content: space-between;
+          margin-top: 10px;
+          margin-bottom: 10px;
           padding: 10px;
           background-color: #d7e4c0;
           font-family: "Raleway", sans-serif;
+          
   
           }}
   }
